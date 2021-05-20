@@ -27,7 +27,7 @@
                 <select class="form-control" name="category_id" id="category_id">
                     <option value="">--Choose--</option>
                     <?php foreach ($categories as $category) : ?>
-                        <option value="<?= $category['id']; ?>"><?= $category['name']; ?></option>
+                        <option value="<?= $category['id']; ?>" <?= ($category['id'] == $book['category_id']) ? "selected" : ''; ?>><?= $category['name']; ?></option>
                     <?php endforeach; ?>
                 </select>
                 <small class="text-danger"><?php echo form_error('category_id'); ?></small>
@@ -37,7 +37,7 @@
                 <select class="form-control" name="writer_id" id="writer_id">
                     <option value="">--Choose--</option>
                     <?php foreach ($writers as $writer) : ?>
-                        <option value="<?= $writer['id']; ?>"><?= $writer['name']; ?></option>
+                        <option value="<?= $writer['id']; ?>" <?= ($writer['id'] == $book['writer_id']) ? "selected" : ''; ?>><?= $writer['name']; ?></option>
                     <?php endforeach; ?>
                 </select>
                 <small class="text-danger"><?php echo form_error('writer_id'); ?></small>
