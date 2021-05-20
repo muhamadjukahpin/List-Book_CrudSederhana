@@ -10,6 +10,9 @@ Tampilan-nya
 - View Detail
 ![detail](https://user-images.githubusercontent.com/83273893/118974348-edc3c900-b99c-11eb-9b90-70ddc9346862.png)
 
+- Form Edit Book
+![formEditBook](https://user-images.githubusercontent.com/83273893/118975722-7db64280-b99e-11eb-8fda-a7c695709e92.png)
+
 - Form add category
 ![formAddCategory](https://user-images.githubusercontent.com/83273893/118974574-3085a100-b99d-11eb-83c3-527a6985b836.png)
 
